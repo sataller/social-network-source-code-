@@ -1,0 +1,46 @@
+.post {
+    background-color: rgba(255, 200, 60, 0.9);
+    display: grid;
+    padding: 0px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-areas: " a n"
+                         " t t"
+                         " l l";
+}
+
+.like{
+    background-color: rgba(255, 200, 60, 0.9);
+
+}
+
+.post img {
+    border-radius: 20px;
+    width: 50px;
+    padding: 10px;
+    grid-area: a;
+
+}
+
+.fullName {
+    padding: 10px 0 0 0;
+    grid-area: n;
+font-weight: bolder;
+}
+
+.postText{
+    grid-area: t;
+
+}
+
+.post .likeCount {
+    padding: 0 0 10px 10px;
+    grid-area: l;
+}
+
+.post span {
+    padding: 10px;
+
+}

@@ -1,0 +1,17 @@
+.login{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 200, 60, 0.9);
+text-align: center;
+/*margin: 0 auto;*/
+}
+
+.sendButton{
+    margin:  10px;
+    padding: 3px 5px 3px 5px;
+    boreder: 1px solid grey;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgba(255, 200, 60, 0.1);
+}
+

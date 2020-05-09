@@ -1,0 +1,48 @@
+.app {
+}
+
+.appWrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 100px 10fr;
+    grid-template-areas: "h h " "c c";
+}
+
+.content {
+    grid-area: c;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.header {
+    background-color: rgba(255, 200, 60, 0.9);
+    grid-area: h;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.header div {
+    line-height: 3em;
+}
+
+/*.navbar {*/
+/*    background-color: rgba(255, 200, 60, 0.9);*/
+/*    grid-area: n;*/
+/*    padding: 10px;*/
+/*    margin: 10px;*/
+/*    border-radius: 10px;*/
+
+/*}*/
+
+.infobar {
+    background-color: rgba(255, 200, 60, 0.9);
+    grid-area: i;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,90 @@
+.userPhoto {
+    text-decoration: none;
+    color: darkgrey;
+    padding: 5px;
+
+}
+
+.user {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(255, 200, 60, 0.9);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "a i" "b i";
+}
+
+.avatar {
+    grid-area: a;
+    margin: 0 auto;
+
+}
+
+.element {
+    /*margin: 0 auto;*/
+    grid-area: b;
+    text-align: center;
+
+}
+
+.information {
+    grid-area: i;
+
+}
+
+.name {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.status {
+    padding: 10px;
+    font-weight: lighter;
+
+}
+
+.user img {
+    width: 70px;
+    border-radius: 10px;
+}
+
+.followButton {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #96ff92;
+    padding: 5px;
+    width: 70px;
+    margin-bottom: 5px;
+
+}
+
+.unfollowButton {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #ffc63c;
+    padding: 5px;
+    width: 70px;
+    margin-bottom: 5px;
+
+}
+
+
+.dialogButton {
+    display: block;
+    /*margin-top: 5px;*/
+    margin:0 auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgba(245, 22, 30, 0.9);
+    padding: 5px;
+    width: 70px;
+}
+
+.dialogButton a{
+color:black;
+}
+
+

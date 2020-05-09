@@ -1,0 +1,54 @@
+.info {
+ max-width: 50px;
+    /*position: relative;*/
+    display: inline-block;
+}
+
+.dropdownMenu{
+    display: block;
+    position: absolute;
+    border-radius: 4px;
+    background-color: rgb(110,237,64);
+    min-width: 70px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: 0.7s;
+
+}
+
+.dropdownMenu button{
+    color: black;
+    border: none;
+    width: 70px;
+    border-radius: 4px;
+    background-color: rgba(141,254,88, 0.1);
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    outline: none;
+}
+
+.dropdownMenu button:hover {
+    transition: 0.7s;
+
+    box-shadow: 0 0px 20px rgba(0,0,0,0.8);
+
+}
+
+/*.show {display:block;}*/
+
+.settings{
+    cursor: pointer;
+
+}
+
+.logout{
+    cursor: pointer;
+
+}
+
+.avatar{
+    cursor: pointer;
+    width: 50px;
+    border-radius: 4px;
+}

@@ -1,0 +1,47 @@
+.login {
+    float: right;
+}
+
+.header{
+
+}
+
+.login a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar{
+    display: inline-block;
+    float: left;
+}
+
+.loginButton{
+    position: relative;
+
+    display: inline-block;
+}
+
+.loginButton a{
+
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+    -webkit-text-fill-color: #ff8853;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    line-height: 2.6em;
+    margin: 0 5px 0 5px;
+    transition: 0.7s;
+
+}
+
+.loginButton a:hover {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.7s;
+
+
+}

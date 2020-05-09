@@ -1,0 +1,25 @@
+.newPost {
+    border-radius: 10px;
+}
+
+.newPost h2{
+    margin: 10px;
+}
+
+.sendButton {
+    margin:  10px;
+    padding: 3px 5px 3px 5px;
+    boreder: 1px solid grey;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgba(255, 200, 60, 0.1);
+
+
+}
+
+.newPost textarea {
+    border-radius: 4px;
+    margin: 0 0 0 10px;
+    width: 90%;
+    height:50px;
+}

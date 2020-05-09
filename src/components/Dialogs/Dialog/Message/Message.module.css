@@ -1,0 +1,44 @@
+.message {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    min-width: 400px;
+}
+
+.viewed{
+    background-color: rgba(255, 200, 60, 0.9);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    max-width: 400px;
+
+}
+
+.name {
+font-weight: 900;
+    cursor: pointer;
+    color: black;
+}
+
+.date {
+font-weight: inherit;
+    color: grey;
+    font-size: x-small;
+    margin-left: 20px;
+}
+
+.text{
+    word-wrap:break-word;
+}
+
+.spamButton{
+    float:right;
+
+    width: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+

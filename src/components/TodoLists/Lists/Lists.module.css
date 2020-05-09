@@ -1,0 +1,11 @@
+.addButton {
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.addButton:hover {
+    border-radius: 10px;
+    box-shadow: 16px 16px 16px 16px rgba(0, 0, 0, 0.2);
+}

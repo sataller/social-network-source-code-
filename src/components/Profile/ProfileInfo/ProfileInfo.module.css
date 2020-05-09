@@ -1,0 +1,52 @@
+.info {
+    background-color: rgba(255, 200, 60, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 10px 0 0;
+    width: 170px;
+    height: 600px;
+    position: fixed;
+    z-index: 101;
+}
+
+.avatar {
+    text-align: center;
+
+}
+
+.avatar .avatarImg {
+    width: 100px;
+    border-radius: 10%;
+    margin-top: 15px ;
+}
+
+.avatarLoader {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.avatarLoader + label {
+    cursor: pointer;
+}
+
+.avatarLoader + label .avatarLoaderIcon{
+    transition: height;
+    width: 70px;
+    border-radius: 10%;
+    position: absolute;
+    left: 60px;
+    bottom:510px;
+    opacity: 0;
+    transition: 0.9s;
+
+}
+
+.avatarLoader + label .avatarLoaderIcon:hover {
+transition: 0.9s;
+    opacity: 0.8;
+}

@@ -1,0 +1,39 @@
+.selected {
+    font-weight: bold;
+}
+
+.pagination {
+    background-color: rgba(255, 200, 60, 0.9);
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.pageButton {
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 200, 60, 0.1);
+    outline: none;
+cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+}
+
+.pageNumber {
+    cursor: pointer;
+
+    border: 1px solid black;
+    margin: 2px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 25px;
+    display: inline-block;
+
+}
+

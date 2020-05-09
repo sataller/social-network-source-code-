@@ -1,0 +1,73 @@
+.dialogs {
+
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 2fr 130px;
+    grid-template-columns: 2fr 7fr;
+    grid-template-areas: "u m" "u n";
+}
+
+.newMessage {
+    background-color: rgba(255, 200, 60, 0.9);
+
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0 0 10px;
+    grid-area: n;
+}
+
+.users {
+    background-color: rgba(255, 200, 60, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    grid-area: u;
+    text-align: center;
+    overflow: auto;
+    max-height: 600px;
+    overflow-y: hidden;
+}
+
+.users:hover{
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+.messages {
+    overflow: auto;
+    max-height: 470px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 0 0 10px;
+    background-color: rgba(255, 200, 60, 0.9);
+    grid-area: m;
+    overflow-y: hidden;
+
+}
+
+.messages:hover{
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    -ms-overflow-scrolling: touch;
+    -o-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+
+.users::-webkit-scrollbar,
+.messages::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+.users::-webkit-scrollbar-thumb,
+.messages::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: rgba(130, 130, 130, 0.5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
