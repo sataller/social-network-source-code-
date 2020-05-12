@@ -1,8 +1,8 @@
 import React from "react"
 import style from "./Message.module.css"
 import {NavLink} from "react-router-dom";
-import spamIcon from "../../../../assets/spamIcon.png"
-import deleteIcon from "../../../../assets/deleteIcon.png"
+import spamIcon from "../../../../assets/images/spamIcon.png"
+import deleteIcon from "../../../../assets/images/deleteIcon.png"
 
 const Message = (props) => {
 

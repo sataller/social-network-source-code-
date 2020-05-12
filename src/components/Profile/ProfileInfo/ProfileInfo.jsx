@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import style from "./ProfileInfo.module.css"
 import Preloader from "../../common/Preloader/Preloader";
 import avatar from "../../../assets/images/avatar1.jpg"
-import loadFile from "../../../assets/loadFile2.jpg"
+import loadFile from "../../../assets/images/loadFile2.jpg"
 import {FollowingButton} from "../../Users/User/FollowingButtons/FollowingButton";
 
 
