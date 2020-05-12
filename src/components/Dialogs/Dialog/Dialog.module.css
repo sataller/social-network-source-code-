@@ -1,0 +1,19 @@
+.dialog{
+ display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: "u m";
+}
+
+.users{
+    grid-area: u;
+    border-right: 1px solid darkgrey;
+
+}
+
+.messages{
+    grid-area:m;
+    border-left: 1px solid darkgrey;
+    text-align: right;
+}
+

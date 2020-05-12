@@ -1,0 +1,13 @@
+.newPost{
+    padding:10px;
+    background-color: #ffee66;
+border-radius: 10px;
+}
+
+.sendButton{
+    margin: 10px;
+}
+
+.newPost textarea{
+    margin: 10px;
+}

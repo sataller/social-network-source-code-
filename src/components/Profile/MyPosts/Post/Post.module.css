@@ -1,0 +1,25 @@
+.post {
+    background-color: #ffee66;
+    padding: 0px 10px 10px 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+.post img{
+    border-radius: 50%;
+    width: 70px;
+    padding:10px;
+
+}
+
+.post .lickCount{
+    padding: 10px;
+}
+
+.post span {
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    padding:10px;
+    width: 100px;
+
+}

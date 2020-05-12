@@ -39,8 +39,7 @@ class App extends React.Component {
                             <Route path="/profile/:userId?" render={() => <ProfileContainer/>}/>
                             <Route path="/users" render={() => <UsersContainer/>}/>
                             <Route path="/login" render={() => <Login/>}/>
-                            <Route path="/todolists" render={() => <div><h1>
-                                This page is under construction</h1></div>}/>
+                            <Route path="/todolists" render={() => <div><h2>This page is under construction</h2></div>}/>
                         </Switch>
 
                     </div>
